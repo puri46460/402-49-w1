@@ -1,0 +1,13 @@
+basic.showString("49")
+basic.showString("Puri")
+basic.pause(2000)
+basic.clearScreen()
+basic.forever(function () {
+    basic.showIcon(IconNames.Square)
+    basic.showIcon(IconNames.Scissors)
+    basic.showArrow(ArrowNames.East)
+    basic.showString("Purichaya")
+    basic.showString("Tubwong")
+    basic.pause(4000)
+    basic.clearScreen()
+})
